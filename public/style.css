@@ -18,9 +18,20 @@ h1 {
 }
 a {
     text-decoration: none;
-    background-color: #fff;
     padding: 5px;
     border-radius: 5px;
+    color:lightgreen;
+}
+.container a, .btn {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: transparent;
+    color:lightgreen;
+    font-size: 20px;
 }
 .container {
     display: flex;
@@ -49,14 +60,7 @@ a {
     border: none;
     border-radius: 5px;
 }
-.container .btn {
-    border: none;
-    padding: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: 700;
-}
+
 .container .error-message {
     background-color: rgba(144, 2, 2, 0.3);
     padding: 10px;
@@ -71,4 +75,7 @@ a {
     padding: 5px;
     text-align: center;
     border-radius: 5px;
+}
+.a-block {
+    padding: 10px 0;
 }
